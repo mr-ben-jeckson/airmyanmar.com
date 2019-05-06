@@ -1,0 +1,61 @@
+.pic-font{
+    width: 64px;
+    height: 64px;
+    background: #47b200;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.ruler{
+    height: 30px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.booking-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.fare{
+    color: #0b2c89;
+    font-size: 18px;
+    font-weight: 600;
+}
+.dis-fare{
+    color: #ac0072;
+    font-size: 18px;
+    font-weight: 600;
+}
+.datepicker{z-index:1151 !important;}
+.dashboard-box{
+    border: 1px solid #5cb85c;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.dashboard-box:hover{
+    background: rgba(28,254,172,0.48);
+    cursor: pointer;
+}
+.dashboard-box-1{
+    border: 1px solid #0A246A;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.dashboard-box-2{
+    border: 1px solid #fff;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.status-1 {
+    border: 1px double #ffe128;
+    color: #0A246A;
+    font-weight: 600;
+    padding: 15px;
+    margin: 0;
+}
