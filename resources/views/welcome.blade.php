@@ -58,7 +58,7 @@
                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                     <label>Select Origin</label>
                                                     <div class="form-group right-icon">
-                                                        <select name="from" class="form-control">
+                                                        <select name="from" class="form-control" required>
                                                             <option value="" selected>From</option>
                                                             @foreach($sector as $item)
                                                                 <option value="{{$item->code}}" style="text-transform: capitalize;">{{$item->name}} ({{$item->code}})</option>
@@ -71,7 +71,7 @@
                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                     <label>Select Destination</label>
                                                     <div class="form-group right-icon">
-                                                        <select name="to" class="form-control">
+                                                        <select name="to" class="form-control" required>
                                                             <option value="" selected>To</option>
                                                             @foreach($sector as $item)
                                                                 <option value="{{$item->code}}" style="text-transform: capitalize;">{{$item->name}} ({{$item->code}})</option>
